@@ -112,9 +112,9 @@
             <tbody>
                 <?php
                 //connect to database
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
+                $servername = ""; //rds end poits
+                $username = "root"; //rds user name
+                $password = "12345678"; //rds password
                 $database = "php_employee_management";
 
                 //Create Connection
