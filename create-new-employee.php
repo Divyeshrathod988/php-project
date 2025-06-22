@@ -1,9 +1,9 @@
 <?php
 
     //connect to database
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "localhost"; //add your rds endpoits
+    $username = "root"; //change your rds user
+    $password = "12345678"; //change your rds password
     $database = "php_employee_management";
 
     //Create Connection
