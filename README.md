@@ -29,3 +29,13 @@ ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 5 show tables;
 
 
+CREATE TABLE emloyee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    subject VARCHAR(150) DEFAULT 'No Subject',
+    message TEXT DEFAULT 'No Message',
+    website VARCHAR(200),
+    gender ENUM('Male', 'Female', 'Other') NOT NULL,
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
